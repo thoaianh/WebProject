@@ -1,0 +1,33 @@
+
+:root{
+    --main_color: rgb(4, 61, 71);
+    }
+    body, html {
+        height: 100%;
+     }
+    
+#fileForm{
+    border:1px  rgb(210, 210, 218) solid;
+    padding: 20px 20px;
+    margin-top: 50px;
+    margin-left: 20%;
+
+   
+}
+
+
+label small {
+    color: #678 !important;
+}
+span.req {
+    color:maroon;
+    font-size: 112%;
+}
+.submit{
+    text-align: center;
+    padding: 5px 20px;
+    background-color:var(--main_color);
+    color: white;
+    font-weight: 10px;
+  
+}

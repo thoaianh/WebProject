@@ -1,0 +1,45 @@
+
+ 
+Set dateformat dmy;
+create database bookdb;
+use bookdb;
+
+CREATE TABLE ACCOUNT(
+ID CHAR(8) PRIMARY KEY,
+NAME CHAR(100) NOT NULL,
+ACCPASSWORD CHAR(10) NOT NULL,
+EMAIL CHAR(50) NOT NULL,
+PHONE CHAR(11) NOT NULL,
+ADDR NTEXT NOT NULL
+
+);
+
+CREATE TABLE BOOKDETAIL(
+ID CHAR(8) PRIMARY KEY,
+TITLE NCHAR(50) NOT NULL,
+AUTHOR CHAR(50)  NULL,
+PRICE FLOAT NOT NULL,
+DECRIPITION  NULL)
+
+CREATE TABLE AMOUNTOFSAMEBOOK(
+ID CHAR(8) PRIMARY KEY,
+TITLE NCHAR(50) NOT NULL,
+AMOUNT INT
+)
+
+
+
+INSERT INTO ACCOUNT VALUES('1001','Le Anh', 'leanh','anhle@gmail.com','0987654321','Linh Trung, Thu Duc ');
+INSERT INTO ACCOUNT VALUES('1002','Nguyen Van', 'nguyenvan','vannguyen@gmail.com','0987654322','Dong Hoa, Di An, Binh Duong');
+INSERT INTO ACCOUNT VALUES('1003','Lam Nhu', 'lamnhu','nhulam@gmail.com','0987654323','An Thai Trung, Cai Be, Tien Giang');
+
+INSERT INTO BOOKDETAIL VALUES('kt101', 'Bi quyet gay dung co nghiep',null,100000,null);
+INSERT INTO BOOKDETAIL VALUES('kt102', 'Dam lam giau',null,800000,null);
+INSERT INTO BOOKDETAIL VALUES('tl101', 'dac nhan tam',null,700000,null);
+
+
+INSERT INTO AMOUNTOFSAMEBOOK VALUES('tll01','Dac nhan tam',1);
+INSERT INTO AMOUNTOFSAMEBOOK VALUES('ktl01', 'Bi quyet gay dung co nghiep',1);
+INSERT INTO AMOUNTOFSAMEBOOK VALUES('ktl02','Dam lam giau',1);
+
+select * from ACCOUNT

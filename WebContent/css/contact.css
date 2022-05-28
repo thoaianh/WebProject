@@ -1,0 +1,29 @@
+
+.contact{
+    height:30%;
+   
+}
+.info-address{
+    margin-left: 120px;
+    font-size: 20px;
+}
+
+.feedback .form{
+    margin-left: 70px;
+    width: 60%;
+    background-color: 	#F5F5F5;
+   
+}
+ .submit{
+    text-align: center;
+    
+
+}
+.contact-fb{
+    position: relative;
+     padding: 3%;
+    /* background-image: url('https://images.pexels.com/photos/1167050/pexels-photo-1167050.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); */
+    
+    
+}
+

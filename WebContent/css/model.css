@@ -1,0 +1,40 @@
+:root{
+    --main_color: rgb(8, 112, 30);
+    }
+
+.store_name{
+  
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-size: 30px;
+
+    color:  var(--main_color);
+    font-weight: 15px;
+    background-color:white;
+    padding: 20px 0px;
+    margin-left:10px ;
+}
+.list_pros{
+    margin-top: 20px;
+}
+.container_category{
+    margin: 50px 10px;
+}
+
+.menu{
+   
+    background-color: var(--main_color);
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 20px 0px;}
+
+
+.menu .nav-link{
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+.menu .nav-item{
+    padding: 0px 20px;
+    color: white;
+    text-decoration: none;
+}

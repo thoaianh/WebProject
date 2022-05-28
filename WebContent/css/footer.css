@@ -1,0 +1,11 @@
+:root{
+    --main_color: rgb(8, 112, 30);
+    }
+
+footer {
+    background: var(--main_color);
+    padding: 40px;
+}
+footer a {
+    color: #f8f9fa!important
+}
